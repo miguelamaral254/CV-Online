@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+    --color1: #66218b;
+    
+}
+header{
+    font-family: var(--font2);
+    font-size: bolder;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    text-align: center;
+    background-image: url(../Imagens/pngtree-climber-and-purple-mountain-background-image_389792.jpg);
+    background-color: blueviolet;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+header li, a{
+    text-decoration: none;
+    color: white;
+}
+#menu-top{
+    background-color:var(--color1);
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#social-menu li{
+    display: inline;
+    margin: 0.5em;
+    
+}
+
+#social-menu img:hover{
+    border-radius: 10px;
+    border: 3px solid var(--color1);
+    
+}
+#contato li{
+    display: inline;
+    font-size: 1.5em;
+}
+#menu-middle{
+   
+   
+}
+#menu-bottom{
+    background-color: var(--color1);
+    padding: 1em;
+
+    justify-content: center;
+}
+#nav-menu li{
+    display: inline;
+    padding: 5px;   
+   
+}
+#nav-menu a{
+    padding: .5em;
+}
+#nav-menu a:hover{
+    border-radius: 10px;
+    border: 2px solid var(--color1);
+    background-color: white;
+    color: var(--color1);
+}
