@@ -1,5 +1,6 @@
 @import url(root.css);
 
+
 /*Mobile Version*/
 @media screen and (max-width:768px) {
     section#about-me-section>.conteiner {
