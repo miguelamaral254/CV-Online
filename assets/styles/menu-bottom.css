@@ -9,12 +9,59 @@
     padding: 5px;   
    
 }
+#burguer{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    #burguer{
+        display: block;
+        color: white;
+        padding: .5em;
+        cursor: pointer;
+    }
+    #itens{
+        display: none;
+    }
+    #burguer:hover{
+        background-color: white;
+        color: var(--color1);
+        transition: .6s;
+    }
+    #nav-menu li {
+        display: block;
+        list-style: none;
+        border-top: 1px solid white  ;
+        padding: .5em;   
+       
+    }
+    #nav-menu a {
+        display: block;
+        padding: .5em;
+        width: 100%;
+       
+    }
+    #nav-menu a:hover{
+        background-color: white;
+        color: var(--color1);
+        transition: .6s;
+        
+    }
+
+    
+}
 #nav-menu a{
     padding: .5em;
+    
+   
 }
 #nav-menu a:hover{
     border-radius: 10px;
     border: 2px solid var(--color1);
     background-color: white;
     color: var(--color1);
+}
+#burguer{
+    background-color: var(--color1);
 }
