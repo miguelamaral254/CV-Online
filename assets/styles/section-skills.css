@@ -1,0 +1,13 @@
+@media screen and (max-width:768px) {
+    section#skills {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 20px;
+        justify-items: center;
+        background-image: url(../Imagens/pngtree-climber-and-purple-mountain-background-image_389792.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;        
+    }
+}

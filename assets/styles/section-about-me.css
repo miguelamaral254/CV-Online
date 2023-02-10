@@ -2,7 +2,7 @@
 
 /*Mobile Version*/
 @media screen and (max-width:768px) {
-    section.about-me-section>.conteiner {
+    section#about-me-section>.conteiner {
         display: flex;
         flex-wrap: wrap;
         margin: auto;
@@ -13,11 +13,11 @@
         background-size: cover;
         background-attachment: fixed;        
     }
-    section.about-me-section>.conteiner>.me-img {
+    section#about-me-section>.conteiner>.me-img {
         text-align: center;
         width: 100%;
     }
-    section.about-me-section>.conteiner>.quote {
+    section#about-me-section>.conteiner>.quote {
         background-color: rgba(2, 2, 2, 0.281);
         color: white;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
@@ -25,18 +25,18 @@
         border-radius: 15px;
     }
     
-    section.about-me-section>.conteiner>.about-me {
+    section#about-me-section>.conteiner>.about-me {
         background-color: rgba(2, 2, 2, 0.281);
         color: white;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         padding: 5px;
         border-radius: 15px;
     }
-    section.about-me-section>.conteiner>.about-me h2, p {
+    section#about-me-section>.conteiner>.about-me h2, p {
         font-family: var(--font3);
         line-height: 1.3em;
     }
-    section.about-me-section>.conteiner P {
+    section#about-me-section>.conteiner P {
         text-indent: 20px;
         line-height: 1.2em;
     }
@@ -45,7 +45,7 @@
 @media screen and (min-width: 768px) and (max-width: 1500px) {
   
 
-    section.about-me-section>.conteiner {
+    section#about-me-section>.conteiner {
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -56,36 +56,36 @@
         background-size: cover;
         background-attachment: fixed;       
     }
-    section.about-me-section>.conteiner>.me-img {
+    section#about-me-section>.conteiner>.me-img {
         text-align: center;
         width: 100%;
 
     }
 
 
-    section.about-me-section>.conteiner>.quote {
+    section#about-me-section>.conteiner>.quote {
         background-color: rgba(2, 2, 2, 0.281);
         color: white;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         padding: 5px;
         border-radius: 15px;        
     }
-    section.about-me-section>.conteiner>.quote p {
+    section#about-me-section>.conteiner>.quote p {
         font-size: 1.5em;
         font-family: 'Courier New', Courier, monospace;
     }
-    section.about-me-section>.conteiner>.about-me {
+    section#about-me-section>.conteiner>.about-me {
         background-color: rgba(2, 2, 2, 0.281);
         color: white;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         padding: 5px;
         border-radius: 15px;
     }
-    section.about-me-section>.conteiner>.about-me h2, p {
+    section#about-me-section>.conteiner>.about-me h2, p {
         font-family: var(--font3);
         line-height: 1.3em;
     }
-    section.about-me-section>.conteiner P {
+    section#about-me-section>.conteiner P {
         text-indent: 20px;
         line-height: 1.3em;
     }
@@ -97,7 +97,7 @@
 @media screen and (min-width:1500px) {
 
 
-    section.about-me-section>.conteiner {
+    section#about-me-section>.conteiner {
         width: 100%;
         justify-content: space-between;
         margin: auto;
@@ -108,37 +108,38 @@
         background-attachment: fixed;
     }
    
-    section.about-me-section>.conteiner>.me-img {
+    section#about-me-section>.conteiner>.me-img {
         text-align: center;
-        width: 100%;
+        padding-top: 5em;
+        
     }
-    section.about-me-section>.conteiner>.quote {
+    section#about-me-section>.conteiner>.quote {
         background-color: rgba(2, 2, 2, 0.281);
         color: white;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         width: fit-content;
-        margin: 30px;
-        padding: 5px;
+        margin: 2em;
+        padding: 1em;
         border-radius: 15px;
     }
-    section.about-me-section>.conteiner>.quote p {
+    section#about-me-section>.conteiner>.quote p {
         font-size: 1.5em;
         font-family: 'Courier New', Courier, monospace;
     }
-    section.about-me-section>.conteiner>.about-me {
+    section#about-me-section>.conteiner>.about-me {
         background-color: rgba(2, 2, 2, 0.281);
         color: white;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         width: fit-content;
-        margin: 30px;
-        padding: 5px;
+        margin: 2em;
+        padding: 1em;
         border-radius: 15px;
     }
-    section.about-me-section>.conteiner>.about-me h2, p {
+    section#about-me-section>.conteiner>.about-me h2, p {
         font-family: var(--font3);
         
     }
-    section.about-me-section>.conteiner P {
+    section#about-me-section>.conteiner P {
         text-indent: 20px;
         line-height: 1.5em;
     }

@@ -1,4 +1,10 @@
-
+/*Mobile version*/
+@media screen and (max-width: 768px) {
+    #social-menu, #contato{
+        display: none;
+    }
+}
+/*tablet screen+ version*/
 #menu-top{
     background-color:var(--color1);
     padding: 2em;
@@ -13,6 +19,7 @@
 }
 
 #social-menu img:hover{
+    
     border-radius: 10px;
     border: 3px solid var(--color1);
     

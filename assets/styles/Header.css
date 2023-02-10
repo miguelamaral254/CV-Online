@@ -10,10 +10,9 @@ header{
     font-size: bolder;
     display: flex;
     flex-direction: column;
-    background-color: red;
     text-align: center;
     background-image: url(../Imagens/pngtree-climber-and-purple-mountain-background-image_389792.jpg);
-    background-color: blueviolet;
+    background-color: var(--color1);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
