@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to left, var(--color1), white, var(--color1));
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+
+    background-color: white;
+    position: absolute;
+    margin: 0% 15%;
+
+
+}
+section.about-me-section {
+    width: 80%;
+    margin: auto;
+    text-align: ;
+    
+
+}
+.quote {
+    width: 25%;
+    border: 3px solid green;
+}
+.me-img {
+    width: 40%;
+    border: 3px solid green;
+}
+.about-me {
+    width: 25%;
+    border: 3px solid green;
+
+}
+
+section.about-me-section > .conteiner {
+    display: flex;
+    padding: 20px;
+}
+
+
+@media screen and (max-width:620px) {
+    section.about-me-section > .conteiner{
+        display: block;
+        padding: 20px;
+
+
+    }
