@@ -21,12 +21,16 @@
         background-color: rgba(2, 2, 2, 0.281);
         color: white;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
+        padding: 5px;
+        border-radius: 15px;
     }
     
     section.about-me-section>.conteiner>.about-me {
         background-color: rgba(2, 2, 2, 0.281);
         color: white;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
+        padding: 5px;
+        border-radius: 15px;
     }
     section.about-me-section>.conteiner>.about-me h2, p {
         font-family: var(--font3);
@@ -62,7 +66,9 @@
     section.about-me-section>.conteiner>.quote {
         background-color: rgba(2, 2, 2, 0.281);
         color: white;
-        box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);        
+        box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
+        padding: 5px;
+        border-radius: 15px;        
     }
     section.about-me-section>.conteiner>.quote p {
         font-size: 1.5em;
@@ -72,6 +78,8 @@
         background-color: rgba(2, 2, 2, 0.281);
         color: white;
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
+        padding: 5px;
+        border-radius: 15px;
     }
     section.about-me-section>.conteiner>.about-me h2, p {
         font-family: var(--font3);
@@ -110,6 +118,8 @@
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         width: fit-content;
         margin: 30px;
+        padding: 5px;
+        border-radius: 15px;
     }
     section.about-me-section>.conteiner>.quote p {
         font-size: 1.5em;
@@ -121,6 +131,8 @@
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         width: fit-content;
         margin: 30px;
+        padding: 5px;
+        border-radius: 15px;
     }
     section.about-me-section>.conteiner>.about-me h2, p {
         font-family: var(--font3);

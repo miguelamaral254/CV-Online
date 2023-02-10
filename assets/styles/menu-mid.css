@@ -1,4 +1,12 @@
-#menu-middle{
-   
-   
+
+#menu-middle h2 {
+    
+        color: white;
+        text-shadow: 1px 1px 15px rgb(0, 0, 0);
+        
+        justify-content: center;
+        text-align: center;
+    
+        
+        
 }
