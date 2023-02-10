@@ -14,35 +14,47 @@ main {
 
 
 }
+
+
 section.about-me-section {
+    height: 40%;
     width: 80%;
     margin: auto;
-    text-align: ;
     
 
-}
-.quote {
-    width: 25%;
-    border: 3px solid green;
-}
-.me-img {
-    width: 40%;
-    border: 3px solid green;
-}
-.about-me {
-    width: 25%;
-    border: 3px solid green;
 
 }
-
-section.about-me-section > .conteiner {
+section.about-me-section>.conteiner {
     display: flex;
-    padding: 20px;
+    justify-content: space-between; 
+    padding: 50px;
+    justify-content: flex-end;
 }
+
+.quote {
+    width: 20%;
+    border: 3px solid green;
+}
+
+.me-img {
+    justify-content: flex-end;
+
+
+    border: 3px solid green;
+}
+
+.about-me {
+    
+    border: 3px solid green;
+    width: 40%;
+
+}
+
+
 
 
 @media screen and (max-width:620px) {
-    section.about-me-section > .conteiner{
+    section.about-me-section>.conteiner {
         display: block;
         padding: 20px;
 
