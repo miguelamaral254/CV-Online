@@ -1,0 +1,133 @@
+@import url(root.css);
+
+/*Mobile Version*/
+@media screen and (max-width:768px) {
+    section.about-me-section>.conteiner {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 20px;
+        justify-items: center;
+        background-image: url(../Imagens/pngtree-climber-and-purple-mountain-background-image_389792.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;        
+    }
+    section.about-me-section>.conteiner>.me-img {
+        text-align: center;
+        width: 100%;
+    }
+    section.about-me-section>.conteiner>.quote {
+        background-color: rgba(2, 2, 2, 0.281);
+        color: white;
+        box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
+    }
+    
+    section.about-me-section>.conteiner>.about-me {
+        background-color: rgba(2, 2, 2, 0.281);
+        color: white;
+        box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
+    }
+    section.about-me-section>.conteiner>.about-me h2, p {
+        font-family: var(--font3);
+        line-height: 1.3em;
+    }
+    section.about-me-section>.conteiner P {
+        text-indent: 20px;
+        line-height: 1.2em;
+    }
+}
+/*Tablet version*/
+@media screen and (min-width: 768px) and (max-width: 1500px) {
+  
+
+    section.about-me-section>.conteiner {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 20px;
+
+        background-image: url(../Imagens/pngtree-climber-and-purple-mountain-background-image_389792.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;       
+    }
+    section.about-me-section>.conteiner>.me-img {
+        text-align: center;
+        width: 100%;
+
+    }
+
+
+    section.about-me-section>.conteiner>.quote {
+        background-color: rgba(2, 2, 2, 0.281);
+        color: white;
+        box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);        
+    }
+    section.about-me-section>.conteiner>.quote p {
+        font-size: 1.5em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    section.about-me-section>.conteiner>.about-me {
+        background-color: rgba(2, 2, 2, 0.281);
+        color: white;
+        box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
+    }
+    section.about-me-section>.conteiner>.about-me h2, p {
+        font-family: var(--font3);
+        line-height: 1.3em;
+    }
+    section.about-me-section>.conteiner P {
+        text-indent: 20px;
+        line-height: 1.3em;
+    }
+
+
+}
+
+/*Bigscreen version*/
+@media screen and (min-width:1500px) {
+
+
+    section.about-me-section>.conteiner {
+        width: 100%;
+        justify-content: space-between;
+        margin: auto;
+        display: flex;
+        background-image: url(../Imagens/pngtree-climber-and-purple-mountain-background-image_389792.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+   
+    section.about-me-section>.conteiner>.me-img {
+        text-align: center;
+        width: 100%;
+    }
+    section.about-me-section>.conteiner>.quote {
+        background-color: rgba(2, 2, 2, 0.281);
+        color: white;
+        box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
+        width: fit-content;
+        margin: 30px;
+    }
+    section.about-me-section>.conteiner>.quote p {
+        font-size: 1.5em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    section.about-me-section>.conteiner>.about-me {
+        background-color: rgba(2, 2, 2, 0.281);
+        color: white;
+        box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
+        width: fit-content;
+        margin: 30px;
+    }
+    section.about-me-section>.conteiner>.about-me h2, p {
+        font-family: var(--font3);
+        
+    }
+    section.about-me-section>.conteiner P {
+        text-indent: 20px;
+        line-height: 1.5em;
+    }
+}
