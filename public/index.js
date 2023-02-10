@@ -1,9 +1,8 @@
-function openMenu(){
-    if(itens.style.display == 'block'){
-     itens.style.display = 'none'
-    }else {
-     itens.style.display ='block'
- 
+function openMenu() {
+    var closed = document.getElementById("itens");
+    if (closed.style.display === "block") {
+      closed.style.display = "none";
+    } else {
+      closed.style.display = "block";
     }
- 
- }
+  }

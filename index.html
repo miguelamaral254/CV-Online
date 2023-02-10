@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/public/index.css">
-    <link rel="stylesheet" href="public/index.js">
+    <script src="public/index.js"></script>
     <title>CV Digital</title>
 </head>
 
 <body>
     <header>
         <!--MENU TOP-->
-        
+
         <div id="menu-top">
             <ul id="social-menu">
                 <li><a href="https://contate.me/miguel-amaral-dev" target="_blank"><img
@@ -36,19 +36,28 @@
             <h2>Front end developer</h2>
         </div>
         <!--MENU BOTTOM-->
-        <div id="burguer" onclick="openMenu()"><span class="material-icons">menu</span></div>
-        <div id="menu-bottom">
-            <ul id="nav-menu">
-                <div id="itens">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Quem sou</a></li>
-                    <li><a href="#">O que faço</a></li>
-                    <li><a href="#">tools</a></li>
-                    <li><a href="#">Fale conosco</a></li>
-                </div>
+        <div id="iburguer" onclick="openMenu()">
+            <span id="burguer" class="material-icons">menu</span>
+          </div>
+          <menu id="itens">
+            <ul>
+              <li class="botton">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="botton">
+                <a href="#">Quem sou</a>
+              </li>
+              <li class="botton">
+                <a href="#">O que faço</a>
+              </li>
+              <li class="botton">
+                <a href="#">Tools</a>
+              </li>
+              <li class="botton">
+                <a href="#">Fale conosco</a>
+              </li>
             </ul>
-
-        </div>
+          </menu>
 
     </header>
     <main>
@@ -65,11 +74,14 @@
                 </div>
                 <div class="about-me">
                     <h2>Olá!</h2>
-                    <p>Me chamo Miguel e estou em transição de carreira para a área de tecnologia. Apesar de sempre ter sido
-                        entusiasta da área, acabei optando por ingressar na área da licenciatura pois eu acredito que apenas
+                    <p>Me chamo Miguel e estou em transição de carreira para a área de tecnologia. Apesar de sempre ter
+                        sido
+                        entusiasta da área, acabei optando por ingressar na área da licenciatura pois eu acredito que
+                        apenas
                         a
                         educação pode mudar nossa vida. Durante meu curto período como professor, eu tentei pensar em
-                        alternativas de incluir a tecnologia na sala de aula e acabei me envolvendo e me identificando com
+                        alternativas de incluir a tecnologia na sala de aula e acabei me envolvendo e me identificando
+                        com
                         programação, principalmente com a parte de front-end. Sou do tipo de pessoa que analisa bem as
                         situações
                         e procura sempre resolver o mais rápido possível o problema. Preocupo-me em sempre entregar as
