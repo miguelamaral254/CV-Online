@@ -1,0 +1,25 @@
+@import url(menu-top.css);
+@import url(menu-mid.css);
+@import url(menu-bottom.css);
+
+
+/* Configuração padrão do header*/
+
+header{
+    font-family: var(--font2);
+    font-size: bolder;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    text-align: center;
+    background-image: url(../Imagens/pngtree-climber-and-purple-mountain-background-image_389792.jpg);
+    background-color: blueviolet;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+header li, a{
+    text-decoration: none;
+    color: white;
+}
+

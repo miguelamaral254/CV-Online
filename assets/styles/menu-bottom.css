@@ -1,0 +1,20 @@
+#menu-bottom{
+    background-color: var(--color1);
+    padding: 1em;
+
+    justify-content: center;
+}
+#nav-menu li{
+    display: inline;
+    padding: 5px;   
+   
+}
+#nav-menu a{
+    padding: .5em;
+}
+#nav-menu a:hover{
+    border-radius: 10px;
+    border: 2px solid var(--color1);
+    background-color: white;
+    color: var(--color1);
+}
