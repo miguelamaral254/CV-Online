@@ -1,11 +1,11 @@
-/*=======| Open menu |======= */
+/*=======| Open Menu |======= */
 
 window.addEventListener("resize", function () {
   if (window.innerWidth >= 768) {
     document.querySelector("#itens").style.transition = "none";
     document.querySelector("#itens").style.display = "block";
   } else {
-    document.querySelector("#itens").style.transition = "all 0.5s ease-in-out";
+    
     document.querySelector("#itens").style.display = "none";
   }
 });
@@ -13,20 +13,13 @@ window.addEventListener("resize", function () {
 function openMenu() {
   const menu = document.querySelector("#itens");
   if (menu.style.display === "block") {
-    menu.style.height = "0";
-    setTimeout(function() {
-      menu.style.display = "none";
-    }, 500);
+    menu.style.display = "none";
   } else {
     menu.style.display = "block";
-    setTimeout(function() {
-      menu.style.height = "auto";
-    }, 0);
   }
 }
 
-
-/* =======| Smooth scroll |=======  */
+/*=======| Smooth Scroll |======= */
 
 function smoothScroll(target, duration) {
   var target = document.querySelector(target);
