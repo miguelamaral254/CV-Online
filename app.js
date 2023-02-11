@@ -1,4 +1,4 @@
-/* Open menu */
+/*=======| Open menu |======= */
 
 window.addEventListener("resize", function () {
   if (window.innerWidth >= 768) {
@@ -13,14 +13,20 @@ window.addEventListener("resize", function () {
 function openMenu() {
   const menu = document.querySelector("#itens");
   if (menu.style.display === "block") {
-    menu.style.display = "none";
+    menu.style.height = "0";
+    setTimeout(function() {
+      menu.style.display = "none";
+    }, 500);
   } else {
     menu.style.display = "block";
+    setTimeout(function() {
+      menu.style.height = "auto";
+    }, 0);
   }
 }
 
 
-/* Smooth scroll  */
+/* =======| Smooth scroll |=======  */
 
 function smoothScroll(target, duration) {
   var target = document.querySelector(target);
