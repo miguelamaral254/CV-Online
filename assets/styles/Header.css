@@ -16,6 +16,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
+    
 }
 header li, a{
     text-decoration: none;
