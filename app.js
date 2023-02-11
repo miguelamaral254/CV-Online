@@ -4,8 +4,7 @@ window.addEventListener("resize", function () {
   if (window.innerWidth >= 768) {
     document.querySelector("#itens").style.transition = "none";
     document.querySelector("#itens").style.display = "block";
-  } else {
-    
+  } else {    
     document.querySelector("#itens").style.display = "none";
   }
 });

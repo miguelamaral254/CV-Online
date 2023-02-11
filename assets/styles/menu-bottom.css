@@ -16,7 +16,7 @@
     }
 
     #burguer:hover {
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.808);
         color: var(--color1);
         transition: .6s;
     }
@@ -32,7 +32,7 @@
         padding: .5em;
         color: white;
         text-decoration: none;
-        transition: ease .5s;
+        
 
     }
 
@@ -40,7 +40,7 @@
         background-color: rgba(255, 255, 255, 0.808);
         color: var(--color1);
         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.384);
-        transition: ease .5s;
+        transition: ease .6s;
 
     }
 
