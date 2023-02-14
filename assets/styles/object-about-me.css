@@ -3,41 +3,39 @@
 
 /*Mobile Version*/
 @media screen and (max-width:768px) {
-    section#about-me-section>.conteiner {
+    section#object-about-me>.conteiner {
         display: flex;
         flex-wrap: wrap;
         margin: auto;
         padding: 20px;
         justify-items: center;
-        background-image: url(../Imagens/pngtree-climber-and-purple-mountain-background-image_389792.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;        
+        
+       
     }
-    section#about-me-section.conteiner>.me-img {
+    section#object-about-me.conteiner>.me-img {
         text-align: center;
         width: 100%;
     }
-    section#about-me-section>.conteiner>.quote {
+    section#object-about-me>.conteiner>.quote {
         background-color: rgba(2, 2, 2, 0.281);
-        color: white;
+        color: var(--color3);
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         padding: 5px;
         border-radius: 15px;
     }
     
-    section#about-me-section>.conteiner>.about-me {
+    section#object-about-me>.conteiner>.about-me {
         background-color: rgba(2, 2, 2, 0.281);
-        color: white;
+        color: var(--color3);
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         padding: 5px;
         border-radius: 15px;
     }
-    section#about-me-section>.conteiner>.about-me h2, p {
+    section#object-about-me>.conteiner>.about-me h2, p {
         font-family: var(--font3);
         line-height: 1.3em;
     }
-    section#about-me-section>.conteiner P {
+    section#object-about-me>.conteiner P {
         text-indent: 20px;
         line-height: 1.2em;
     }
@@ -46,7 +44,7 @@
 @media screen and (min-width: 768px) and (max-width: 1500px) {
   
 
-    section#about-me-section>.conteiner {
+    section#object-about-me>.conteiner {
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -57,36 +55,36 @@
         background-size: cover;
         background-attachment: fixed;       
     }
-    section#about-me-section>.conteiner>.me-img {
+    section#object-about-me>.conteiner>.me-img {
         text-align: center;
         width: 100%;
 
     }
 
 
-    section#about-me-section>.conteiner>.quote {
+    section#object-about-me>.conteiner>.quote {
         background-color: rgba(2, 2, 2, 0.281);
-        color: white;
+        color: var(--color3);
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         padding: 5px;
         border-radius: 15px;        
     }
-    section#about-me-section>.conteiner>.quote p {
+    section#object-about-me>.conteiner>.quote p {
         font-size: 1.5em;
         font-family: 'Courier New', Courier, monospace;
     }
-    section#about-me-section>.conteiner>.about-me {
+    section#object-about-me>.conteiner>.about-me {
         background-color: rgba(2, 2, 2, 0.281);
-        color: white;
+        color: var(--color3);
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         padding: 5px;
         border-radius: 15px;
     }
-    section#about-me-section>.conteiner>.about-me h2, p {
+    section#object-about-me>.conteiner>.about-me h2, p {
         font-family: var(--font3);
         line-height: 1.3em;
     }
-    section#about-me-section>.conteiner P {
+    section#object-about-me>.conteiner P {
         text-indent: 20px;
         line-height: 1.3em;
     }
@@ -98,7 +96,7 @@
 @media screen and (min-width:1500px) {
 
 
-    section#about-me-section>.conteiner {
+    section#object-about-me>.conteiner {
         width: 100%;
         justify-content: space-between;
         margin: auto;
@@ -109,38 +107,38 @@
         background-attachment: fixed;
     }
    
-    section#about-me-section>.conteiner>.me-img {
+    section#object-about-me>.conteiner>.me-img {
         text-align: center;
         padding-top: 5em;
         
     }
-    section#about-me-section>.conteiner>.quote {
+    section#object-about-me>.conteiner>.quote {
         background-color: rgba(2, 2, 2, 0.281);
-        color: white;
+        color: var(--color3);
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         width: fit-content;
         margin: 2em;
         padding: 1em;
         border-radius: 15px;
     }
-    section#about-me-section>.conteiner>.quote p {
+    section#object-about-me>.conteiner>.quote p {
         font-size: 1.5em;
         font-family: 'Courier New', Courier, monospace;
     }
-    section#about-me-section>.conteiner>.about-me {
+    section#object-about-me>.conteiner>.about-me {
         background-color: rgba(2, 2, 2, 0.281);
-        color: white;
+        color: var(--color3);
         box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.568);
         width: fit-content;
         margin: 2em;
         padding: 1em;
         border-radius: 15px;
     }
-    section#about-me-section>.conteiner>.about-me h2, p {
+    section#object-about-me>.conteiner>.about-me h2, p {
         font-family: var(--font3);
         
     }
-    section#about-me-section>.conteiner P {
+    section#object-about-me>.conteiner P {
         text-indent: 20px;
         line-height: 1.5em;
     }

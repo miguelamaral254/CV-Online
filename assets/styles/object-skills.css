@@ -1,0 +1,13 @@
+@media screen and (max-width:768px) {
+    section#object-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px;
+    justify-items: center;
+         
+    }
+
+
+    
+}

@@ -1,11 +1,13 @@
 @import url(Header.css);
-@import url(section-about-me.css);
+@import url(object-about-me.css);
+@import url(object-skills.css);
+@import url(object-portfolio.css);
 
-/*Configurações gerais do Body*/
+/*===| Glogal-Body-Settings |===*/
 body,html {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to left, var(--color1), white, var(--color1));
+    background-image: linear-gradient(to left, var(--color1), var(--color3), var(--color1));
     
     
     
@@ -13,6 +15,15 @@ body,html {
 
 main {
 
-    background-color: white;
+    background-color: var(--color3);
     margin: 0% 15%;
+}
+/*===| Global-Section-Settings |===*/
+.sec-with-img{
+    
+    background-image: url(../Imagens/pngtree-climber-and-purple-mountain-background-image_389792.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+      
 }

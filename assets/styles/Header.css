@@ -3,7 +3,7 @@
 @import url(menu-bottom.css);
 
 
-/* Configuração padrão do header*/
+/*===| Global-Header-Settings |===*/
 
 header{
     font-family: var(--font2);
@@ -20,7 +20,7 @@ header{
 }
 header li, a{
     text-decoration: none;
-    color: white;
+    color: var(--color3);
 }
 
 
