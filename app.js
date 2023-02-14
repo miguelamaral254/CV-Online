@@ -54,3 +54,22 @@ links.forEach(function(link) {
   });
 });
 
+/*===| Send email|===*/
+const form = document.getElementById('contact-form');
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  Email.send({
+    SecureToken: 'YOUR_SECURE_TOKEN',
+    To: 'Miguel.amaral.sales@gmail.com',
+    From: 'sender@example.com',
+    Subject: `New message from ${name}`,
+    Body: `Name: ${name}<br>Email: ${email}<br>Message: ${message}`
+  }).then(
+    message => alert('Sua mensagem foi enviada com sucesso!')
+  );
+});
