@@ -1,7 +1,7 @@
 @media screen and (max-width:768px) {
     section#object-skills {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin: auto;
     padding: 20px;
     justify-items: center;
@@ -9,5 +9,18 @@
     }
 
 
+    
+}
+section#object-skills #skills {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    
+
+}
+section#object-skills .skill {
+    
+    box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.144);
     
 }
