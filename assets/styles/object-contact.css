@@ -1,4 +1,4 @@
-section #form {
+section#object-contact #form {
   background-color: var(--color1);
   
   color: var(--color3);
@@ -16,13 +16,13 @@ section #form {
   
 }
 
-section #form > label {
+section#object-contact #form > label {
 font-family: var(--font3);
 font-weight: 1.3em ;
 margin-top: 20px;
 }
 
-section #form > input, textarea {
+section#object-contact #form > input, textarea {
   padding: 10px;
   outline: none;
   margin: 10px 0;
@@ -31,15 +31,15 @@ section #form > input, textarea {
   font-size: 1.3em ;
   transition: all .3s;
 }
-section #form > input:focus {
+section#object-contact #form > input:focus {
 border-radius: 20px;     
 }
-section #form > textarea:focus{
+section#object-contact #form > textarea:focus{
 border-radius: 20px; 
 
 }
 
-section .btn {
+section#object-contact .btn {
 background-color: var(--color3);
 color: var(--color1);
 border: 2px solid var(--color3);
@@ -50,7 +50,8 @@ box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.384);
 font-size: 1.3em;
 transition: .1s;
 }
-section .btn:hover {
+
+section#object-contact .btn:hover {
 border: 2px solid var(--color3);
 background-color: var(--color1); 
 color: var(--color3);
