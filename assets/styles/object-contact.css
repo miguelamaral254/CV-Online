@@ -4,10 +4,12 @@ section #form {
   color: var(--color3);
   display: flex;
   flex-direction: column;
+  height: 80vh;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
+  border-radius: 10px;
   font-family: var(--font2);
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.384);
@@ -41,7 +43,6 @@ section .btn {
 background-color: var(--color3);
 color: var(--color1);
 border: 2px solid var(--color3);
-
 border-radius: 5px;
 padding: 10px 20px;
 margin-top: 20px;
