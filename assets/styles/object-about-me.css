@@ -5,15 +5,21 @@
 @media screen and (max-width:768px) {
     section#object-about-me>.conteiner {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         margin: auto;
         padding: 20px;
         justify-items: center;
+    
+        background-image: url(../Imagens/pngtree-climber-and-purple-mountain-background-image_389792.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
         
        
     }
     section#object-about-me.conteiner>.me-img {
-        text-align: center;
+        text-align: center;        
         width: 100%;
     }
     section#object-about-me>.conteiner>.quote {
@@ -95,16 +101,18 @@
 /*Bigscreen version*/
 @media screen and (min-width:1500px) {
 
-
     section#object-about-me>.conteiner {
         width: 100%;
         justify-content: space-between;
         margin: auto;
         display: flex;
+       
         background-image: url(../Imagens/pngtree-climber-and-purple-mountain-background-image_389792.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+       
+        
     }
    
     section#object-about-me>.conteiner>.me-img {

@@ -1,95 +1,67 @@
 @media screen and (max-width: 768px) {
-    #itens {
-        background-color: var(--color1);
-        display: none;
-        
-        
-
-    }
-
     #burguer {
         display: block;
         color: var(--color3);
         background-color: var(--color1);
         padding: .5em;
         cursor: pointer;
+        transition: all .5s;
+        border: 1px solid rgba(0, 0, 0, 0.678);
     }
-
     #burguer:hover {
         background-color: rgba(255, 255, 255, 0.808);
         color: var(--color1);
         transition: .6s;
     }
-
+    #itens {
+        background-color: var(--color1);
+        display: none;      
+    }    
     #itens li {
         list-style: none;
     }
-
     #itens a {
-
         display: block;
         border-top: 1px solid var(--color3);
         padding: .5em;
         color: var(--color3);
-        text-decoration: none;
-        
-
+        text-decoration: none;       
     }
-
     #itens a:hover {
         background-color: rgba(255, 255, 255, 0.808);
         color: var(--color1);
         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.384);
-        transition: ease .6s;
-
+        transition: all .6s;
     }
-
-
 }
-
 @media screen and (min-width:768px) {
     #burguer {
         display: none;
-    }
-    
-
+    }   
     #itens {
         width: 100%;
         padding: 1.2em;
         margin-top: 1em;
         background-color: var(--color1);
         justify-content: center;
-        
-
-
     }
-
-
     #itens li {
         display: inline;
         border-radius: 30px;
-        
-        
         list-style: none;
     }
     #itens a{
         padding: 1em;
         color: var(--color3);
         text-decoration: none;
-        transition: ease .5s;
+        transition: ease .2s;    
     }
-
     #itens a:hover {
-
         background-color: var(--color3);
         color: var(--color1);
         padding: .8em;
-        border-radius: 50%;
+        border-radius: 20px;
         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.384);
-        transition: ease .5s;
-        
-        
-
-        
+        transition: ease .2s;     
     }
 }

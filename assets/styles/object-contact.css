@@ -1,30 +1,59 @@
-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-  }
+section #form {
+  background-color: var(--color1);
   
-  label {
-    font-weight: bold;
-    margin-top: 20px;
-  }
+  color: var(--color3);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: var(--font2);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.384);
   
-  input, textarea {
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin-top: 20px;
-    font-size: 16px;
-  }
+}
+
+section #form > label {
+font-family: var(--font3);
+font-weight: 1.3em ;
+margin-top: 20px;
+}
+
+section #form > input, textarea {
+  padding: 10px;
+  outline: none;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.3em ;
+  transition: all .3s;
+}
+section #form > input:focus {
+border-radius: 20px;     
+}
+section #form > textarea:focus{
+border-radius: 20px; 
+
+}
+
+section .btn {
+background-color: var(--color3);
+color: var(--color1);
+border: 2px solid var(--color3);
+
+border-radius: 5px;
+padding: 10px 20px;
+margin-top: 20px;
+box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.384);
+font-size: 1.3em;
+transition: .1s;
+}
+section .btn:hover {
+border: 2px solid var(--color3);
+background-color: var(--color1); 
+color: var(--color3);
+border-radius: 10px;
+
+transition: ease .1s;
+}

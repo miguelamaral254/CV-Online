@@ -1,0 +1,59 @@
+@import url(root.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section#form-message {
+    background-color: var(--color1);
+    
+    
+    padding: 10px;
+    height: 100vh;    
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.623);
+    
+       
+    
+
+}
+section#form-message h1 {
+    color: var(--color3);
+    font-family: var(--font3);
+    font-size: 2.5em;    
+    padding: 15px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.664);
+}
+section#form-message p {
+    color: var(--color3);
+    font-family: var(--font1);
+    font-size: 1.5em;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.664);
+}
+section .btn {
+    margin-top: 50px;
+
+    padding: 15px 55px;
+    border-radius: 10px;
+    
+    background-color: var(--color3);
+    color: var(--color1);
+    font-family: var(--font2);
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: ease .5s;    
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.63);
+}
+section .btn:hover {
+    border: 2px solid var(--color3);
+    background-color: var(--color1); 
+    color: var(--color3);
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.384);
+    transition: ease .2s;
+    
+}

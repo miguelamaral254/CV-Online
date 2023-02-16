@@ -4,6 +4,7 @@
 @import url(object-portfolio.css);
 @import url(object-contact.css);
 
+
 /*===| Glogal-Body-Settings |===*/
 body,html {
     height: 100vh;
@@ -27,4 +28,9 @@ main {
     background-size: cover;
     background-attachment: fixed;  
       
+}
+.section{
+    padding: 20px;
+    
+    background-color: co;
 }
